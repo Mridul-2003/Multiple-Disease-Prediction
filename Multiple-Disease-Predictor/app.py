@@ -25,6 +25,8 @@ heart_predict=pickle.load(open('heart.pkl', 'rb'))
 parkinsons_predict=pickle.load(open('parkinsons.pkl', 'rb'))
 
 @app.route('/') # instancing one page (homepage)
+def main():
+    return render_template("index.html")
 @app.route('/login', methods =['GET', 'POST'])
 def login():
     msg = ''
