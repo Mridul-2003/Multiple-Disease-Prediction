@@ -8,89 +8,28 @@ It's an end-to-end Machine Learning Project. The purpose of this project is to p
 Visit: https://multiple-disease-predictor-ml.herokuapp.com/  (This link might not work if the Heroku will discontinue its Free tier/plan, in that case, please scroll down and see how this deployed web app looks like on Heroku)
 
 
-### Screenshots (of This Web App When it is Live On Heroku)
+### Screenshots 
 
-**Home Page**
+![Screenshot 2023-03-18 at 3 34 48 PM](https://user-images.githubusercontent.com/110475111/226099285-8dc371e0-a9f8-485b-b2ed-c40b8b899b0f.png)
 
+![Screenshot 2023-03-18 at 3 35 01 PM](https://user-images.githubusercontent.com/110475111/226099298-418bf7b0-f102-4d58-a4b9-c29052019582.png)
 
-![HomePage](https://user-images.githubusercontent.com/109678911/204099558-56535854-14dd-43c6-83f4-ba7ee329662d.PNG)
+![Screenshot 2023-03-18 at 3 35 11 PM](https://user-images.githubusercontent.com/110475111/226099303-51995af7-8bd0-4bbb-8776-50551dfb6e55.png)![Screenshot 2023-03-18 at 3 35 19 PM](https://user-images.githubusercontent.com/110475111/226099308-33ad3dbc-90e7-4f8c-812d-b5613b4ad1ea.png)
 
-
-**Diabetes Prediction Page**
-
-![DiabetesPredictionPage](https://user-images.githubusercontent.com/109678911/204099575-ea73c666-60a5-464f-8fee-ec4440a9674a.PNG)
-
-**Diabetes Prediction Page With Inputs Provided by the User**
-
-![DiabetesPredictionPageWithValues](https://user-images.githubusercontent.com/109678911/204099672-6693a3f3-de0c-4706-bb4b-cc12282866f2.PNG)
-
-**Diabetes Prediction Page Displaying the Output for the Inputs Provided by the User**
-
-![DiabetesPredictionPageOutput](https://user-images.githubusercontent.com/109678911/204099710-34179827-df57-48a2-96fa-883f2c82fba6.PNG)
-
-**Parkinson's Prediction Page**
-
-![ParkinsonsPredictionPage](https://user-images.githubusercontent.com/109678911/204099779-547b7a95-160d-45c7-b650-38abeb7cfd8d.PNG)
-
-**Heart Disease Prediction Page**
-
-![HeartDiseasePredictionPage](https://user-images.githubusercontent.com/109678911/204099841-0298aa88-9b1f-4d38-bf6e-14dd9527d9f6.PNG)
-
-### Install
-
-This project requires **Python** and the following Python libraries installed:
-
-- NumPy
-- Pandas
-- matplotlib
-- Seaborn
-- scikit-learn
-- Flask
-
-### How this project has been created
-
-**Step-1** : Build and trained ML models for each of the 3 diseases, whose code is written in the `diabetes.py`, `heart.py` and `parkinsons.py` files and saved the model in pickle file `diabetes.pkl`, `heart.pkl`, and `parkinsons.pkl` respectively.
-
-**Step-2** : Created Flask web app whose code is written in `app.py` file. For the interactive user interface, HTML and CSS have been used. HTML files are stored in `templates` directory while CSS files and web app's background image is stored in `static` directory.
-
-**Step-3** : Uploaded the project on GitHub and deployed the web app using Heroku.
-
-### Procfile
-
-Procfile is a mechanism for declaring the commands that are executed by an Heroku app on startup. So for this project, the Procfile contains ` web: gunicorn app:app` where the first app represents the name of the python file (`app.py`) that runs the whole application. The second app represents the app name (`app=Flask(__name__)`) that is named inside app.py file.
-
-### Deployment on Heroku With Screenshots
-
-**Step-1** : Login to Heroku, then Create the new app.
-
-![Createapp](https://user-images.githubusercontent.com/109678911/204100024-e9c2b32d-46a8-4858-b0c3-1d428323bbe7.PNG)
-
-**Step-2** : Connect to the GitHub and then Connect to the Repository `sidroy9/Multiple-Disease-Predictor-ML-Flask-WebApp` where this project exists.
-
-![Deployment](https://user-images.githubusercontent.com/109678911/204100265-8d0ce13f-cea2-4c2c-87a5-db7e3e05e422.PNG)
-
-**Step-3** : Go to Manual Deploy Section, then choose the main branch to deploy and then click on the Deploy Branch. Now, Build main will start.
-
-![Manual Deploy](https://user-images.githubusercontent.com/109678911/204100750-e803df4f-c8b7-4b33-987a-e56d1c14b733.jpg)
-
-
-**Step-4** : After sometime, the app will be deployed successfully. You can click on View to see the live web app. 
-
-![Deployed](https://user-images.githubusercontent.com/109678911/204101351-721158a6-3e81-4893-844b-8f03329b2e5e.jpg)
+![Screenshot 2023-03-18 at 3 35 24 PM](https://user-images.githubusercontent.com/110475111/226099309-d0e71a8b-ecb8-4fb7-9e00-b6cc00043169.png)
 
 
 
-### Run
+![Screenshot 2023-03-18 at 3 35 39 PM](https://user-images.githubusercontent.com/110475111/226099321-4e532f92-420c-47ea-b857-50a7809889f6.png)
 
-In a terminal or command window, navigate to the top-level project directory `Multiple-Disease-Predictor-ML-Flask-WebApp/` (that contains this README) and run the following command:
+![Screenshot 2023-03-18 at 3 36 15 PM](https://user-images.githubusercontent.com/110475111/226099326-7808814b-d2af-45a0-97b0-46f2a15df77c.png)!
+![Screenshot 2023-03-18 at 3 35 33 PM](https://user-images.githubusercontent.com/110475111/226099417-cd525a82-2625-44f6-835f-d1b0e5c8ff29.png)
 
-```bash
-python app.py
-```  
+![Screenshot 2023-03-18 at 3 36 54 PM](https://user-images.githubusercontent.com/110475111/226099346-cf7356bb-c974-489a-b5a6-34faa863c1a3.png)
+![Screenshot 2023-03-18 at 3 37 17 PM](https://user-images.githubusercontent.com/110475111/226099353-1d3daafd-5fda-4661-849c-7e38f9e436fd.png)
+![Screenshot 2023-03-18 at 3 37 49 PM](https://user-images.githubusercontent.com/110475111/226099358-553d7afa-58c5-4220-8b82-e1c5e6614bdf.png)![Screenshot 2023-03-18 at 3 39 25 PM](https://user-images.githubusercontent.com/110475111/226099364-75a5baed-c209-4e46-81bd-5a3e69a8df9f.png)
 
-This will show you the localhost address, type the same address in the browser and it will open WebApp in your browser.
-
-### Data
+![Screenshot 2023-03-18 at 3 41 02 PM](https://user-images.githubusercontent.com/110475111/226099373-ab9a1210-e156-4cec-a620-c5b1cfd59a9c.png)
 
 The datasets that are used for training the ML models are:
 
