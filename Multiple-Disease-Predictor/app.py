@@ -131,7 +131,7 @@ def predictheartdisease():      #function to predict heart disease
         display_text="This person has Heart Disease"
     else:
         display_text="This person doesn't have Heart Disease"
-    return render_template('heartdisease.html',output_text="Result: {}".format(display_text))
+    return render_template('heartPrecautions.html',output_text="Result: {}".format(display_text))
 
 
 
