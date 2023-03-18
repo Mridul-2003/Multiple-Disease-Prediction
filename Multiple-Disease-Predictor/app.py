@@ -120,7 +120,7 @@ def predictparkinsons():      #function to predict parkinsons disease
         display_text="This person has Parkinson's"
     else:
         display_text="This person doesn't have Parkinson's"
-    return render_template('parkinsons.html',output_text="Result: {}".format(display_text))
+    return render_template('parikson_precaution.html',output_text="Result: {}".format(display_text))
 
 @app.route('/predictheartdisease/',methods=['POST']) 
 def predictheartdisease():      #function to predict heart disease
