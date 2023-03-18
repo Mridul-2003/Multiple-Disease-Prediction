@@ -1,11 +1,9 @@
 # Project: Multiple-Disease-Predictor-ML-Flask-WebApp
 ### Project Intro/Objective 
 
-It's an end-to-end Machine Learning Project. The purpose of this project is to predict whether a person is suffering from a particular disease or not on the basis of his/her input data. The prediction has been done by using Machine Learning (ML) classification algorithms and it has been deployed as a Flask web app on Heroku. Currently, this web app can predict 3 types of diseases (Diabetes, Parkinson's and Heart Disease). 
+It's an end-to-end Machine Learning Project. The purpose of this project is to predict whether a person is suffering from a particular disease or not on the basis of his/her input data. The prediction has been done by using Machine Learning (ML) classification algorithms . Currently, this web app can predict 3 types of diseases (Diabetes, Parkinson's and Heart Disease). 
 
-### See Project
 
-Visit: https://multiple-disease-predictor-ml.herokuapp.com/  (This link might not work if the Heroku will discontinue its Free tier/plan, in that case, please scroll down and see how this deployed web app looks like on Heroku)
 
 
 ### Screenshots 
